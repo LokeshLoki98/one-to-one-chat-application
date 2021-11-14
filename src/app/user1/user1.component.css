@@ -1,0 +1,23 @@
+img
+{
+    border-radius: 50%;
+    width: 50px;
+}
+p
+{
+    text-align: center;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:black;
+}
+.user1
+{
+    width: 365px;
+    border-radius: 10px;
+    display: flex;
+}
+.user1:hover
+{
+    background: lightgrey;
+    color:black;
+}

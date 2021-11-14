@@ -1,0 +1,37 @@
+.container{
+    border:1px solid;
+    width: 30%;
+    height:560px;
+    float: left;
+    border-left-style: none;
+    border-top-style: none;
+}
+
+#mydp{
+    border-radius: 50%;
+    width: 50px;
+}
+#mychat
+{
+    text-align: center;
+    padding-left: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+.myprofile
+{
+ width: 370px;
+ box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+ border-radius: 10px;
+ display: flex;
+}
+
+.users{
+    padding:8px;
+    margin-top:50px;
+}
+
+app-user1,app-user2 {
+    padding:10px;
+}

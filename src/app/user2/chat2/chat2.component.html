@@ -1,0 +1,35 @@
+
+<!-- /******************************Bob*************************/ -->
+<app-myprofile></app-myprofile>
+<div class="container">
+  <div class="bob">
+      <img src="../../../assets/Bob.png" alt=""> 
+      <ul>
+      <li>Bob</li>
+      <li id="li1">Lastseen:{{lastseen|date:'medium'}}</li>
+    </ul>
+  </div> 
+
+  <div class="chat2">
+    
+    <div *ngFor="let msg of msgs" class="msg1" [ngClass]="{'right-message': msg.origin == 'from'}">
+      {{msg.text}} <br>
+      {{ dateObj | date:'shortTime' }}
+    </div>
+
+  <div class="type">
+      
+    
+    <input type="text" name="r1"  #mymsg value="">
+
+     <img id="arrow" src="../../../assets/arrow.png" alt="send arrow" (click)=send(mymsg.value)> 
+
+    
+  </div>
+  <img id="smile" src="../../../assets/smile.png" alt="smile" (click)=emoji()>
+  <div *ngIf="isShown" id="divshow">
+   <p (click)=addemoji(mymsg.value) value=😀>😀</p> 
+  </div>
+ 
+
+</div>
