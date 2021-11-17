@@ -75,7 +75,7 @@ img#smile {
 }
 
 .right-message {
-  text-align: right;
+  float: right;
   padding: 8px;
   width: 30%;
   margin: 5px 560px;
@@ -92,6 +92,7 @@ img#smile {
   width: 30%;
   margin-top: 11px;
 }
+
 .olive:before {
   content: "olive";
 }
